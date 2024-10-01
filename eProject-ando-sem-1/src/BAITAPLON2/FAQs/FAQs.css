@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.accordion .accordion-item {
+  border: none; /* Bỏ tất cả border */
+  border-bottom: 1px solid #e5e5e5; /* Giữ border-bottom */
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #54545c; /* Giữ border-bottom khi mở */
+}
+
+.accordion .accordion-item button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%; /* Giữ cho responsive */
+  padding: 1em 0;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none; /* Bỏ border của button */
+  background: none;
+  outline: none;
+  transition: color 200ms ease; /* Thêm hiệu ứng chuyển màu */
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #54545c; /* Màu chữ khi hover/focus */
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #54545c;
+  border: 1px solid #54545c;
+}
+
+.accordion button .accordion-title {
+  padding: 0 20px; /* Giảm padding cho responsive */
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 10px; /* Điều chỉnh cho phù hợp với kích thước màn hình nhỏ hơn */
+  width: 22px;
+  height: 22px;
+  border: 1px solid; /* Bỏ border của icon */
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #54545c;
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0; /* Ẩn icon khi mở */
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 15em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+  font-size: 19px;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+
+.FAQ {
+  margin: 100px auto;
+  padding: 2rem; /* Giảm padding cho responsive */
+  width: 90%; /* Sử dụng 90% để dễ dàng responsive */
+  max-width: 48rem !important; /* Giới hạn chiều rộng tối đa */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.FAQ h2 {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+  margin: 0.83em 0;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.accordion-content p {
+  padding: 0 20px; /* Giảm padding cho responsive */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .accordion button .accordion-title {
+    font-size: 1.2rem; /* Giảm kích thước font trên màn hình nhỏ */
+  }
+
+  .accordion .accordion-content p {
+    font-size: 1rem; /* Giảm kích thước font cho nội dung */
+  }
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: -10px; /* Điều chỉnh cho phù hợp với kích thước màn hình nhỏ hơn */
+    width: 22px;
+    height: 22px;
+    border: 1px solid; /* Bỏ border của icon */
+    border-radius: 22px;
+  }
+  .FAQ {
+    margin: 100px auto;
+    padding: 2rem; /* Giảm padding cho responsive */
+    width: 95% !important; /* Sử dụng 90% để dễ dàng responsive */
+    max-width: 35rem !important; /* Giới hạn chiều rộng tối đa */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 29px 0px;
+  }
+}

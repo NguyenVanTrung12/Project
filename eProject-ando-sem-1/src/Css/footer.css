@@ -1,0 +1,77 @@
+.footer {
+    background-color: #54545c;
+}
+.vertical-list i {
+    color: white;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.col1 {
+    text-align: center;
+}
+
+.col2 span {
+    margin-left: 20px;
+    color: white;
+    font-size: 17px;
+}
+.col2 i {
+    color: white;
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.col3 {
+    color: white;
+}
+.icon1 {
+    font-size: 20px;
+    color: white;
+    margin-left: 50px;
+}
+.policy-container {
+    display: flex;
+    justify-content: space-between;
+}
+.address {
+    font-size: 25px;
+    margin-top: 20px;
+}
+.policy-column {
+    flex: 1;
+    padding: 0 10px; /* Điều chỉnh khoảng cách giữa các cột nếu cần */
+    margin: 20px 30px;
+    color: white;
+}
+
+.policy-column b {
+    display: block; /* Đảm bảo các thẻ <b> nằm trên các dòng riêng biệt */
+}
+.vertical-list b {
+    margin: 20px 15px;
+}
+.vertical-list{
+    margin: 10px -10px;
+
+}
+.vertical-list i {
+    padding: 6px 0px;
+}
+.fa-arrow-right {
+    font-size: 20px;
+}
+.follow-me {
+    text-align: center; /* Căn giữa tiêu đề và các biểu tượng */
+    display: flex;
+}
+.follow{
+    color: white;
+    margin-top: 10px;
+}
+.col5 {
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 20px 0;
+}
