@@ -1,126 +1,126 @@
-.newsdetail .container .new{
-    padding: 20px 0px;
+.newsdetail .container .new {
+  padding: 20px 0px;
 }
 
 .newsdetail .container .left .tieude {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 
 }
 
 .newsdetail .container .left h2 {
-    margin: 20px 0px;
-    font-weight: 700;
+  margin: 20px 0px;
+  font-weight: 700;
 }
 
 .newsdetail .container .left .tieude a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .newsdetail .container .right h4 {
-    padding: 0px 0px;
-    font-weight: 700;
-    color: #bd141a;
+  padding: 0px 0px;
+  font-weight: 700;
+  color: #bd141a;
 
 
 }
 
 .newsdetail .container .right .baiviet {
-    border: 1px solid #ddd;
-    width: 80%;
+  border: 1px solid #ddd;
+  width: 80%;
 
 }
 
 .newsdetail .container .right .baiviet .row {
-    padding: 10px 0px;
-    margin: 0 auto;
-    width: 95%;
-    border-bottom: 1px solid #ddd;
+  padding: 10px 0px;
+  margin: 0 auto;
+  width: 95%;
+  border-bottom: 1px solid #ddd;
 
 }
 
 .newsdetail .container .right .baiviet .row img {
-    border-radius: 50%;
-    width: 70px;
+  border-radius: 50%;
+  width: 70px;
 
 }
 
 .newsdetail .container .right .baiviet .row p {
-    font-size: 15px;
+  font-size: 15px;
 
 }
 
 .newsdetail .container .right .baiviet .row p:hover {
-    color: #bd141a;
+  color: #bd141a;
 
 }
 
 .newsdetail .container .dangky-tintuc {
-    border-radius: 5px;
-    width: 80%;
-    margin: 20px 0px;
-    background-color: #bd141a;
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px 0px;
+  background-color: #bd141a;
 
 }
 
 .newsdetail .container .dangky-tintuc h4 {
-    padding: 5px 20px;
-    font-size: 25px;
-    color: #fff;
+  padding: 5px 20px;
+  font-size: 25px;
+  color: #fff;
 
 }
 
 .newsdetail .container .dangky-tintuc p {
-    padding: 0px 20px;
-    color: #fff;
+  padding: 0px 20px;
+  color: #fff;
 
 }
 
 .newsdetail .container .dangky-tintuc input {
-    border-radius: 10px;
-    border: none;
-    margin: 10px 20px;
-    width: 90%;
-    padding: 5px 5px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 20px;
+  width: 90%;
+  padding: 5px 5px;
 
 
 }
 
 .newsdetail .container .dangky-tintuc textarea {
-    margin: 10px 20px;
-    width: 90%;
-    padding: 5px 5px;
-    border-radius: 10px;
-    border: none;
+  margin: 10px 20px;
+  width: 90%;
+  padding: 5px 5px;
+  border-radius: 10px;
+  border: none;
 
 
 }
 
 .newsdetail .container .dangky-tintuc button {
-    margin: 10px 10px;
-    width: 90%;
-    background-color: #FF9800;
-    padding: 5px 5px;
-    border: none;
-    color: #fff;
-    font-weight: 500;
-    border-radius: 50px;
+  margin: 10px 10px;
+  width: 90%;
+  background-color: #FF9800;
+  padding: 5px 5px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 50px;
 
 
 }
 
 .newsdetail .container .left .new_link {
-    margin: 10px 0px;
-    border-bottom: 2px solid #ddd;
+  margin: 10px 0px;
+  border-bottom: 2px solid #ddd;
 }
 
 .newsdetail .container .left .new_link img {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
 
 .newsdetail .container .left .new_link b {
-    padding: 5px 0px;
-    font-size: 25px;
+  padding: 5px 0px;
+  font-size: 25px;
 }
 
 
@@ -128,125 +128,133 @@
 
 
 .newsdetail .container .left .tintuc1 {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .newsdetail .container .left .tintuc1 .cart img {
-    margin: 10px 0px;
-    border-radius: 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
 }
 
 .newsdetail .container .left .tintuc1 .cart b {
-    color:#555;
-    font-size: 14px;
+  color: #555;
+  font-size: 14px;
 
 }
 
 .newsdetail .container .left .tintuc1 .cart b:hover {
-    color: red;
+  color: red;
 
 }
 
 .newsdetail .container .left .tintuc2 {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .newsdetail .container .left .tintuc2 .cart img {
-    margin: 10px 0px;
-    border-radius: 10px;
+  margin: 10px 0px;
+  border-radius: 10px;
 }
 
 .newsdetail .container .left .tintuc2 .cart b {
-    color: #555;
-    font-size: 14px;
+  color: #555;
+  font-size: 14px;
 
 }
 
 
 .newsdetail .container .left .tintuc2 .cart b:hover {
-    color: red;
+  color: red;
 
 }
 
 .newsdetail .container .left .comment {
-    background-color: #ddd;
-    padding: 5px 20px;
-    margin: 20px 0px;
-    border-radius: 5px;
-   
-   
+  background-color: #ddd;
+  padding: 5px 20px;
+  margin: 20px 0px;
+  border-radius: 5px;
+
+
 
 }
-.newsdetail .container .left .comment b{
-    font-size: 20px;
-    color: #555;
-   
+
+.newsdetail .container .left .comment b {
+  font-size: 20px;
+  color: #555;
+
 
 }
-.newsdetail .container .left .comment p{
-   margin: 10px 0px;
-    color: black;
-    font-weight: 600;
-   
+
+.newsdetail .container .left .comment p {
+  margin: 10px 0px;
+  color: black;
+  font-weight: 600;
+
 
 }
-.newsdetail .container .left .comment textarea{
-    width: 100%;
-    height: 5%;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    
- 
- }
- .newsdetail .container .left .comment .row input{
-    width: 100%;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    
- }
- .newsdetail .container .left .comment  button{
-    margin: 10px 0px;
-    background-color: #FF9800;
-    border-radius: 5px;
-    font-weight: 600;
-    border: none;
-    width: 50%;
-    padding: 5px 15px ;
-    color: #fff;
-  
-    
- }
- @media screen and (min-width: 700px) and (max-width:1400px) {
-    @media screen and (min-width: 700px) and (max-width:1024px) {
-      .newsdetail .container .right .baiviet {
-  
-        width: 100% !important;
-      }
-  
-      .newsdetail .container .right .baiviet .row p {
-        font-size: 13px !important;
-      }
-  
-      .newsdetail .container .right .baiviet .row img {
-        border-radius: 50%;
-        width: 50px;
-  
-      }
+
+.newsdetail .container .left .comment textarea {
+  width: 100%;
+  height: 5%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+
+
+}
+
+.newsdetail .container .left .comment .row input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+
+}
+
+.newsdetail .container .left .comment button {
+  margin: 10px 0px;
+  background-color: #FF9800;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  width: 50%;
+  padding: 5px 15px;
+  color: #fff;
+
+
+}
+
+@media screen and (min-width: 700px) and (max-width:1400px) {
+  @media screen and (min-width: 700px) and (max-width:1024px) {
+    .newsdetail .container .right .baiviet {
+
+      width: 100% !important;
     }
-  
-  
+
     .newsdetail .container .right .baiviet .row p {
-      margin-left: 20px;
       font-size: 13px !important;
     }
+
+    .newsdetail .container .right .baiviet .row img {
+      border-radius: 50%;
+      width: 50px;
+
+    }
+  }
+
+
+  .newsdetail .container .right .baiviet .row p {
+    margin-left: 20px;
+    font-size: 13px !important;
+  }
+
   .newsdetail .container .dangky-tintuc {
     border-radius: 5px;
     width: 100%;
     margin: 20px 0px;
     padding: 0px 10px;
     background-color: #bd141a;
-  
+
   }
+
   .newsdetail .container .dangky-tintuc input {
     border-radius: 10px;
     border: none;
@@ -254,6 +262,7 @@
     width: 90%;
     padding: 5px 5px;
   }
+
   .newsdetail .container .dangky-tintuc textarea {
     margin: 10px 10px;
     width: 90%;
@@ -261,62 +270,72 @@
     border-radius: 10px;
     border: none;
   }
-  .newsdetail .container .left  {
+
+  .newsdetail .container .left {
     margin: 10px auto;
     border-radius: 10px;
-   
+
   }
-  .newsdetail .container .left img  {
+
+  .newsdetail .container .left img {
     width: 100% !important;
-   margin: 10px auto;
-   
-  }
-  .newsdetail .container .right  {
     margin: 10px auto;
+
+  }
+
+
+
+  .newsdetail .container .right img {
+    width: 100% !important;
+    margin: 10px auto;
+
+  }
+
+  .newsdetail .container .right .baiviet {
+    margin: 20px -40px !important;
+    width: 100% !important;
+  }
+
+  .newsdetail .container .dangky-tintuc {
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px -35px;
+    background-color: #bd141a;
+  }
+}
+
+
+@media screen and (min-width: 375px) and (max-width:932px) {
+  .newsdetail .container .left .tintuc1 .cart img {
+    margin: 10px 0px;
     border-radius: 10px;
-   
+    width: 100% !important;
   }
-  .newsdetail .container .right  img  {
-   width: 100% !important;
-   margin: 10px auto;
-   
+
+  .newsdetail .container .left .tintuc2 .cart img {
+    margin: 10px 0px;
+    border-radius: 10px;
+    width: 100% !important;
   }
-  .newsdetail .container .right .baiviet  {
+
+
+
+  .newsdetail .container .right .baiviet {
     margin: 20px 0px !important;
     width: 100% !important;
-  
-  
   }
-  
-  }
-  
-  @media screen and (min-width: 375px) and (max-width:932px) {
-    .newsdetail .container .left .tintuc1 .cart img {
-      margin: 10px 0px;
-      border-radius: 10px;
-      width: 100% !important;
-    }
-    .newsdetail .container .left .tintuc2 .cart img {
-      margin: 10px 0px;
-      border-radius: 10px;
-      width: 100% !important;
-    }
-  
-    .newsdetail .container .right  {
-      margin: 20px 50px !important;
-      width: 100%;
-    
-    
-    }
-    .newsdetail .container .right .baiviet  {
-      margin: 20px 15px !important;
-      width: 70% !important;
-    
-    
-    }
-  }
- 
-  
 
- 
- 
+
+  .newsdetail .cart img {
+    margin: 10px 0px;
+    border-radius: 10px;
+    width: 100% !important;
+  }
+
+  .newsdetail .container .dangky-tintuc {
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px 0px;
+    background-color: #bd141a;
+  }
+}

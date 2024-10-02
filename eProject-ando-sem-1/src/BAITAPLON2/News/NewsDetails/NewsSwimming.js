@@ -10,7 +10,7 @@ function NewsSwimming() {
 
           <div class="row new">
 
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 left">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 left">
               <div class="tieude">
                 <a href="" title="Return to home page" style={{color: 'red'  }}> Home page »  </a><a href="/New" style={{color: 'red' }} title="Return to Event news"> Event news </a> <a href=""> »  Event news Swimming details </a>
 
@@ -93,7 +93,7 @@ function NewsSwimming() {
               </div>
 
 
-              <div class="news_item">
+              <div class="c">
                 <h4 style={{color: 'rgb(90, 87, 87)'}}>You may be interested : </h4>
 
                 <div class="row Tintuc1">
@@ -185,8 +185,8 @@ function NewsSwimming() {
 
 
 
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 right">
-              <img src="./img/home-rigt-tintuc-1.jpg" alt="" width="80%" style={{borderradius: '10px'}} />
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 right">
+              <img src="./img/home-rigt-tintuc-1.jpg" alt="" width="80%" style={{borderradius: '10px' , margin:'0 auto'}} />
               <h4> Latest Posts</h4>
               <div class="baiviet">
                 <div class="row">

@@ -10,7 +10,7 @@ function NewSalos() {
 
           <div class="row new">
 
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 left">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 left">
               <div class="tieude">
                 <a href="/" title="Return to home page" style={{ color: 'red' }}> Home page » </a><a href="/New" style={{ color: 'red' }} title="Return to Event news"> Event news </a> » spas for health
 
@@ -141,7 +141,7 @@ function NewSalos() {
               </div>
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 right">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 right">
               <img src="./img/home-rigt-tintuc-1.jpg" alt="" width="80%" style={{borderradius: '10px'}} />
               <h4> Latest Posts</h4>
               <div class="baiviet">

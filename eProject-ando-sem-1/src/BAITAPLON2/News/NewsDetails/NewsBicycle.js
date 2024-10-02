@@ -151,7 +151,7 @@ function NewsBicycle() {
 
 
 
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 right">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 right">
               <img src="./img/home-rigt-tintuc-1.jpg" alt="" width="80%" style={{borderradius: '10px'}} />
               <h4> Latest Posts</h4>
               <div class="baiviet">

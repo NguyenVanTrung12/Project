@@ -186,6 +186,7 @@
 
       width: 100% !important;
     }
+
     .imgg img {
       margin-left: 0px !important;
     }
@@ -286,14 +287,19 @@
   }
 
   .news .container .right .baiviet {
-    margin: 20px auto !important;
-    width: 50% !important;
-
-
+    margin: 20px -19px !important;
+    width: 100% !important;
   }
+
   .news .container .left img {
     width: 100% !important;
     margin: 10px auto;
+  }
+  .news .container .dangky-tintuc {
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px -18px;
+    background-color: #bd141a;
 }
 }
 
@@ -313,11 +319,19 @@
   }
 
   .news .container .right .baiviet {
-    margin: 20px 24px !important;
-    width: 73% !important;
+    margin: 20px -19px !important;
+    width: 100% !important;
   }
+
   .news .container .left img {
     width: 100% !important;
     margin: 10px auto;
-}
+  }
+
+  .news .container .dangky-tintuc {
+    border-radius: 5px;
+    width: 100%;
+    margin: 20px -18px;
+    background-color: #bd141a;
+  }
 }
