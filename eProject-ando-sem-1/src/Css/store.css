@@ -240,4 +240,21 @@ h2.title:after {
 text-align: center;
 
 }
+@media screen and (min-width: 375px) and (max-width:932px) {
+  .product .product-image-wrapper {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin-bottom: 30px;
+     height: auto !important; 
+}
+}
 
+
+@media screen and (min-width: 300px) and (max-width:673px) {
+  .product .product-image-wrapper {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: auto !important; 
+}
+}
