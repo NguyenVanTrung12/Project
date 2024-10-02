@@ -58,7 +58,7 @@ export default function Store({ addToCart, limit, title, cat }) {
     return (
         <section style={{ marginTop: 50 }} className='product'>
             <div class="container" style={{ margin: '40px auto' }}>
-            <h2 style={{ textAlign: "center", backgroundColor: '#E5A87B', color: ' aliceblue', padding: 20, borderRadius: 30 }}>PRODUCTS FEATURE  <span><i style={{ fontSize: '30px', margin: "10px " }} class='fa'>|	&#xf07a;</i></span></h2>
+            <h2 style={{ textAlign: "center", backgroundColor: '#E5A87B', color: ' aliceblue', padding: 20, borderRadius: 30 }}>PRODUCTS FEATURE  <span> <a href='/shoppingcart'><i style={{ fontSize: '40px', margin: "10px 30px ",color:'#ff8800' }} class='fa'>|	&#xf07a;</i></a></span></h2>
                 <div>
                     <br />
                     <br />

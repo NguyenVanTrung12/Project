@@ -93,7 +93,7 @@ function ProductDetail() {
       <div className="container-fluid">
         <div className="container">
           <div className="row">
-            <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3 left">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 left">
             <div className="Category_img">
                 <img src="../img/home-rigt-tintuc-2.jpg" style={{width:'100%',margin:'20px 0px'}} alt="Category" />
               </div>
@@ -102,10 +102,10 @@ function ProductDetail() {
               </div>
             </div>
 
-            <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9 right">
+            <div className="col-xs-12 col-sm-12 col-md-12  col-lg-9 right">
               <div className="row">
               <h3 style={{textAlign:'center'}}>{product.name}</h3>
-                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   <div
                     className="img-magnifier-container"
                     style={{ margin: "0px 20px" }}
@@ -114,7 +114,7 @@ function ProductDetail() {
                    
                   </div>
                 </div>
-                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                   
                   <p>
                     <b>Giá : </b> {'$'+product.price+'.00'}
@@ -137,7 +137,7 @@ function ProductDetail() {
                         <button type="submit" className="btn " style={{borderRadius:'none',backgroundColor:'#90dd40'}}>
                           ADD CART
                         </button>
-                        <a href = "/product" className='btn btn-danger' title='Return to product page'>
+                        <a href = "/store" className='btn btn-danger' title='Return to product page'>
                         Come back</a>
                       </span>
                     </p>

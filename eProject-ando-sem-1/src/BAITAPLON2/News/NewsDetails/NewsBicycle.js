@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NewsBicycle() {
   return (
     <>
-      <div class="container-fluid">
+      <div class="container-fluid newsdetail">
         <div class="container">
 
           <div class="row new">
