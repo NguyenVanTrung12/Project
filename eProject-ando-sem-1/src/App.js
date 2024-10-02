@@ -13,7 +13,7 @@ import NewGroupFitnes from './BAITAPLON2/News/NewsDetails/NewGroupFitnes';
 import NewFood from './BAITAPLON2/News/NewsDetails/NewFood';
 import Register from './BAITAPLON2/Register/form';
 import FAQs from './BAITAPLON2/FAQs/FAQs';
-import Product from './BAITAPLON2/product';
+
 import ProductDetail from './BAITAPLON2/ProductDetail/ProductDetail';
 import Introduce from './BAITAPLON2/introduce';
 import Contact from './BAITAPLON2/contact';
@@ -49,8 +49,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/about' element={<About />}></Route>
-        <Route path='/store' element={<Store />}></Route>
-        <Route path='/Product' element={<Product addToCart={addToCart}/>}></Route>
+        <Route path='/store' element={<Store addToCart={addToCart} />}></Route>
         <Route path='/New' element={<New />}></Route>
         <Route path='/NewsSwimming' element={<NewsSwimming/>} ></Route>
         <Route path='/NewsFitness' element={<NewsFitness/>}></Route>

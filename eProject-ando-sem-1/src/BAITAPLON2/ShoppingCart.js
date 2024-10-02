@@ -63,7 +63,7 @@ function ShoppingCart({ cart }) {
                       <input type="submit" value="Update Cart" />
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                      <Link to="/product">Continue Shopping</Link>
+                      <Link to="/store">Continue Shopping</Link>
                     </div>
 
                   </div>
