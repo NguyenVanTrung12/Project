@@ -58,7 +58,7 @@ export default function Store({ addToCart, limit, title, cat }) {
     return (
         <section style={{ marginTop: 50 }} className='product'>
             <div class="container" style={{ margin: '40px auto' }}>
-            <h2 style={{ textAlign: "center", backgroundColor: '#E5A87B', color: ' aliceblue', padding: 20, borderRadius: 30 }}>PRODUCTS FEATURE  <span> <a href='/shoppingcart'><i style={{ fontSize: '40px', margin: "10px 30px ",color:'#ff8800' }} class='fa'>|	&#xf07a;</i></a></span></h2>
+                <h2 style={{ textAlign: "center", backgroundColor: '#E5A87B', color: ' aliceblue', padding: 20, borderRadius: 30 }}>PRODUCTS FEATURE  <span> <a href='/shoppingcart'><i style={{ fontSize: '40px', margin: "10px 30px ", color: '#ff8800' }} class='fa'>|	&#xf07a;</i></a></span></h2>
                 <div>
                     <br />
                     <br />
@@ -70,7 +70,7 @@ export default function Store({ addToCart, limit, title, cat }) {
                             <form action="#" class="sidebar-search" method="post" onSubmit={handleSubmit(onsearch)}>
                                 <div className="form-group" >
                                     <input {...register('name')} type="text" placeholder="Search here..." />
-                                    <button class="submit" ><i class='fas fa-search' style={{color:"white"}}></i></button>
+                                    <button class="submit" ><i class='fas fa-search' style={{ color: "white" }}></i></button>
                                 </div>
 
 
@@ -87,7 +87,7 @@ export default function Store({ addToCart, limit, title, cat }) {
                                         Discount according to price</option>
                                 </select>
                                 <button className="submit" type="submit">
-                                    <i className='fas fa-search' style={{color:"white"}}></i>
+                                    <i className='fas fa-search' style={{ color: "white" }}></i>
                                 </button>
                             </div>
                         </form>
@@ -158,26 +158,14 @@ export default function Store({ addToCart, limit, title, cat }) {
                                                                     <a class="btn btn-default add-to-cart" onClick={() => handleAddToCart(item)}>Add to cart</a>
 
                                                                     <div className="action-btn fix">
-
-                                                                        <div class="row" style={{ width: '80%',marginLeft:"40px" }}>
-
-                                                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-                                                                                <i class="fas fa-heart fa-lg" style={{ color: '#ffa500' }}></i>
+                                                                        <div class="row" >
+                                                                            <div class="">
+                                                                                <i class="fas fa-heart fa-lg" style={{ color: '#ffa500',margin:'10px 10px' }}></i>
+                                                                                <i class="fas fa-user-alt fa-lg" style={{ color: '#ffa500',margin:'0px 10px' }}></i>
+                                                                                <i class="fas fa-shopping-cart fa-lg" style={{ color: '#ffa500',margin:'0px 10px' }} />
                                                                             </div>
-                                                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-                                                                                <i class="fas fa-shopping-cart fa-lg" style={{ color: '#ffa500' }} />
-                                                                            </div>
-                                                                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
-
-                                                                                <i class="fas fa-user-alt fa-lg" style={{ color: '#ffa500' }}></i>
-                                                                            </div>
-
-
 
                                                                         </div>
-
-
-
                                                                     </div>
                                                                 </div>
                                                             </div>
